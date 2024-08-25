@@ -495,6 +495,15 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
+/* added for LCP */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('CustomFont.woff2') format('woff2');
+  font-display: swap;
+}
+
+
+
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
@@ -2010,3 +2019,6 @@ textarea.form-input::-webkit-resizer { display: none; }
       transform: scaleX(1);
   }
 }
+
+
+
